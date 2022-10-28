@@ -4,6 +4,10 @@
     <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Sigil" Version="5.0.0" />
     <PackageReference Include="Xamarin.Forms.Mocks" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SomeNuget\SomeNuget.csproj" />
   </ItemGroup>
 </Project>
